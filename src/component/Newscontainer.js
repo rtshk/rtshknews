@@ -56,7 +56,7 @@ export default function Newscontainer(props) {
         <div className="container my-4">
             <div className="row row-cols-3"> 
               {articles.map((element) => {
-                return <div key = {element.url}><Newsitem  imageUrl = {element.urlToImage} title = {element.title} description={element.description} 
+                return <div key = {element.publishedAt}><Newsitem  imageUrl = {element.urlToImage} title = {element.title} description={element.description} 
                 newsDetails = {element.url } mode = {props.mode} author = {element.author} time = {element.publishedAt}
                 /></div>
               }

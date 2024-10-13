@@ -21,7 +21,7 @@ function App() {
       document.body.style.backgroundColor = "white"
     }
   }
-  const country = "in"
+  const country = "us"
   return (
     <>
     <BrowserRouter>
